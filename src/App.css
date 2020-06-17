@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "HelloAgnes";
+    src: url("./assets/fonts/HelloAgnesRegular.ttf");
+}
+
+body {
+    font-family: "HelloAgnes";
+}

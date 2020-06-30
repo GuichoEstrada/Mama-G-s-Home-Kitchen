@@ -3,7 +3,8 @@ import { Switch, Route } from 'react-router-dom';
 
 import HomePage from './pages/homepage/homepage.component';
 import MenuPage from './pages/menupage/menupage.component';
-import Header from './components/header/header.component.jsx'
+import SignInAndSignUp from './pages/sign-in-and-sign-up/sign-in-and-sign-up.components';
+import Header from './components/header/header.component';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route path='/menu' component={MenuPage} />
+        <Route path='/signin' component={SignInAndSignUp} />
       </Switch>
     </div>
   );

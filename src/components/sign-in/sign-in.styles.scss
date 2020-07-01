@@ -1,9 +1,64 @@
 .sign-in {
-    width: 30vw;
+    width: 380px;
     display: flex;
     flex-direction: column;
 
     .title {
         margin: 10px 0;
+    }
+
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .signin-google {
+        min-width: 165px;
+        width: 250px;
+        height: 50px;
+        letter-spacing: 0.5px;
+        line-height: 50px;
+        padding: 0 35px 0 35px;
+        margin: 10px;
+        font-size: 12px;
+        background-color: black;
+        color: white;
+        text-transform: uppercase;
+        // font-family: 'Open Sans Condensed';
+        font-weight: bolder;
+        border: none;
+        cursor: pointer;
+        background-color: #db3236;
+        
+        &:hover {
+            background-color: white;
+            color: #db3236;
+            border: 1px solid #db3236;
+        } 
+    }
+    .signin-facebook {
+        min-width: 165px;
+        width: 250px;
+        height: 50px;
+        letter-spacing: 0.5px;
+        line-height: 50px;
+        padding: 0 35px 0 35px;
+        margin: 10px;
+        font-size: 12px;
+        background-color: black;
+        color: white;
+        text-transform: uppercase;
+        // font-family: 'Open Sans Condensed';
+        font-weight: bolder;
+        border: none;
+        cursor: pointer;
+        background-color: #3b5998;
+        
+        &:hover {
+            background-color: white;
+            color: #3b5998;
+            border: 1px solid #3b5998;
+        } 
     }
 }

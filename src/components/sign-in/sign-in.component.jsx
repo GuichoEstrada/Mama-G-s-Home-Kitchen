@@ -6,7 +6,6 @@ import { signInWithGoogle } from '../../firebase/firebase.utils';
 import { signInWithFacebook } from '../../firebase/firebase.utils';
 
 import './sign-in.styles.scss';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 class SignIn extends React.Component {
     constructor(props) {
@@ -54,7 +53,7 @@ class SignIn extends React.Component {
                     />
                     <div className='buttons'>
                         <CustomButton type='submit'>SIGN IN</CustomButton>
-                        <CustomButton className='signin-google' onClick={signInWithGoogle}><span><FontAwesomeIcon icon='facebook-square'/></span>SIGN IN WITH GOOGLE</CustomButton>
+                        <CustomButton className='signin-google' onClick={signInWithGoogle}>SIGN IN WITH GOOGLE</CustomButton>
                         <CustomButton className='signin-facebook' onClick={signInWithFacebook}>SIGN IN WITH FACEBOOK</CustomButton>  
                     </div>
 

@@ -2,6 +2,8 @@
     width: 380px;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    font-family: 'Open Sans Condensed';
 
     .title {
         margin: 10px 0;
@@ -28,6 +30,7 @@
         // font-family: 'Open Sans Condensed';
         font-weight: bolder;
         border: none;
+        border-radius: 5px;
         cursor: pointer;
         background-color: #db3236;
         
@@ -52,6 +55,7 @@
         // font-family: 'Open Sans Condensed';
         font-weight: bolder;
         border: none;
+        border-radius: 5px;
         cursor: pointer;
         background-color: #3b5998;
         

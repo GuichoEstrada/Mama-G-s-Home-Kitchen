@@ -3,7 +3,7 @@ import FormInput from '../form-input/form-input.component';
 import CustomButton from '../custom-button/custom-button.component';
 import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
 
-import './sign-up.component.scss';
+import './sign-up.styles.scss';
 
 class SignUp extends React.Component{
     constructor(props) {
@@ -42,6 +42,7 @@ class SignUp extends React.Component{
     };
 
     handleChange = event => {
+        
         const { name, value } = event.target;
 
         this.setState({ [name]: value});
